@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "lst": "^0.1.0",
+    "nodejs": "^0.0.0"
+  },
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "This is Mamuka's first project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memuka13/firstProject.git"
+  },
+  "author": "Mamuka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/memuka13/firstProject/issues"
+  },
+  "homepage": "https://github.com/memuka13/firstProject#readme",
+  "devDependencies": {
+    "fs-extra": "^10.1.0",
+    "globally": "^0.0.0"
+  }
+}
