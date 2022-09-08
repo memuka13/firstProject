@@ -65,14 +65,10 @@ function checkPrime (number) {
         for (i=2; i < number; i++) {
             if (number % i === 0) {
                 return "This number is not prime";
-                break;
             }
         }
-        if (i = number) {
-            return "This number is prime";
-        }
-    }
-    else {
+        return "This number is prime";
+    } else {
         return "This number is not prime";
     }
 }
@@ -80,3 +76,5 @@ function checkPrime (number) {
 console.log(checkPrime(7));
 console.log(checkPrime(9));
 console.log(checkPrime(1));
+console.log(checkPrime(0));
+console.log(checkPrime(2));
