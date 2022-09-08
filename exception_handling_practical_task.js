@@ -5,9 +5,8 @@ try {
     console.log(a);
     let a = 3;
 }catch (err){
-    console.log(err.message);
+    console.log("let must be declared");
 }
-// I'm can't understand what does ‘let must be declared’ - mean. Could I have explained this task in different words?
 
 
 
