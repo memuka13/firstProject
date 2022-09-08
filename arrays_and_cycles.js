@@ -51,7 +51,7 @@ console.log(graterThen3);
 const array7 = array6;
 
 function numberIndex (number, arr) {
-    return arr.findIndex((num) => num == number);
+    return arr.findIndex((num) => num === number);
 }
 
 console.log(numberIndex(7, array7));
